@@ -17,11 +17,8 @@ use function sprintf;
 
 final class PsrLogEventListener implements JobEvent, JobFailEvent, JobSuccessEvent, JobStartEvent, JobNotDueEvent, JobIsLockedEvent
 {
-    private LoggerInterface $logger;
-
-    public function __construct(LoggerInterface $logger)
+    public function __construct(private readonly LoggerInterface $logger)
     {
-        $this->logger = $logger;
     }
 
     public function fail(Job $job, string $output): void

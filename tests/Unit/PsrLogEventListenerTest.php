@@ -9,9 +9,7 @@ use JobRunner\JobRunner\PsrLog\PsrLogEventListener;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
-/**
- * @covers \JobRunner\JobRunner\PsrLog\PsrLogEventListener
- */
+/** @covers \JobRunner\JobRunner\PsrLog\PsrLogEventListener */
 class PsrLogEventListenerTest extends TestCase
 {
     public function testSuccess(): void
