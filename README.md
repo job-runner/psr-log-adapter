@@ -1,4 +1,4 @@
-# psr/log for JobRunner #
+# psr/log for JobRunner
 
 [![Build Status](https://github.com/job-runner/psr-log-adapter/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/job-runner/psr-log-adapter/actions/workflows/continuous-integration.yml)
 [![Type Coverage](https://shepherd.dev/github/job-runner/psr-log-adapter/coverage.svg)](https://shepherd.dev/github/job-runner/psr-log-adapter)
@@ -10,9 +10,9 @@ This package provides a psr-log adapter for JobRunner.
 
 ## Installation
 
-```bash
+````bash
 composer require job-runner/psr-log-adapter
-```
+````
 
 ## Usage
 
