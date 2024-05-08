@@ -6,10 +6,11 @@ namespace JobRunner\JobRunner\PsrLog\Tests\Unit\EventListener;
 
 use JobRunner\JobRunner\Job\Job;
 use JobRunner\JobRunner\PsrLog\PsrLogEventListener;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
-/** @covers \JobRunner\JobRunner\PsrLog\PsrLogEventListener */
+#[CoversClass(PsrLogEventListener::class)]
 class PsrLogEventListenerTest extends TestCase
 {
     public function testSuccess(): void
